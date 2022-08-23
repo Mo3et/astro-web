@@ -1,0 +1,23 @@
+# name: website
+# on:
+#   push:
+#     branches: [main]
+#     paths:
+#       - 'packages/website/**'
+#   pull_request:
+#     branches:
+#       - main
+# defaults:
+#   run:
+#     working-directory: ./packages/website
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - run: yarn install
+#       - run: yarn build
+#       - run: curl -sf https://cli.caitouyun.com/install.sh | sh
+#       - run: caitou deploy --git
+#         env:
+#           CAITOU_TOKEN: ${{ secrets.CAITOU_TOKEN }}
