@@ -43,6 +43,18 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
+# Example
+
+[Example Source](https://github.com/withastro/astro/tree/latest/examples)
+
+[Astro Try (astro new)](https://astro.new/)
+
+[Astro Blog example](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog?file=README.md)
+
+[Blog source](https://github.com/withastro/astro/tree/latest/examples/blog?on=github)
+
+=========================
+
 # website
 
 monetblog or mo3etblog.caitou.org
