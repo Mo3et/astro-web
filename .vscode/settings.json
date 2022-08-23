@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/Monet/Desktop/Monet_Repo/astro-website/.github/workflows/action.yml"
+  }
+}
