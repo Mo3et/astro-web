@@ -1,0 +1,24 @@
+#### site
+# site tag is website name
+
+# site: monet
+# site: blogs
+
+site: monetblog
+# or
+# site: mo3etblog
+
+#### public
+#   Public tags is builded files. Example: dist public.
+#   production_branch is only run in this branch. Example: main , product build etc.
+# public: public
+# production_branch: live
+
+# public: public
+public: dist
+force_ssl: true
+# rewrites:
+#   - source: /api/*
+#     destination: https://api.westack.live/$1
+# domains:
+#   china: weekly.westack.live
